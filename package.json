@@ -1,0 +1,38 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "6.6.6",
+  "description": "hexlet",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadimko/backend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/yadimko/backend-project-lvl1#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadimko/backend-project-lvl1.git"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.0",
+    "eslit": "^6.0.0"
+  }
+}
